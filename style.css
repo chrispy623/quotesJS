@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+    font-family: 'calibri', sans-serif;
+    font-weight: 400;
+  }
+  
+  .container {
+    background-color: #fffdbd;
+    padding: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    flex: 0 0 80%
+  }
+  
+  #quoteBtn {
+    border: none;
+    border-left: 10px;
+    color: #fff;
+    background: #d89156;
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  #quoteBtn:hover {
+    color: #ffd000;
+  }
+  
+  
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #fcdbdf;
+    margin: 1.5rem;
+    padding: 0.5rem;
+  }
